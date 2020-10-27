@@ -33,7 +33,7 @@ app.get('/comingsoon', function(request, response) {
 });
 
 app.get('*', function(request, response) {
-  response.status(404).sendFile(__dirname + '/pages/404.html');
+  response.status(404).sendFile(__dirname + '/404.html');
 });
 
 var listener = app.listen(process.env.PORT, function() {
