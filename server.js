@@ -21,7 +21,7 @@ app.get('/', async (req, res) => {
 });
 
 app.get('/commands', function(request, response) {
-  response.sendFile(__dirname + '/commands/index.html');
+  response.sendFile(__dirname + '/commands.html');
 });
 
 app.get('/dashboard', function(request, response) {
