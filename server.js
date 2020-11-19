@@ -16,6 +16,20 @@ app.get('/futurehome', async (req, res) => {
   res.sendFile(__dirname + '/views/index.html'); 
 });
 //ABOVE IS TEMP BETA SCREEN
+
+
+
+app.get('/HelpCmd', function(request, response) {
+  response.sendFile(__dirname + '/CommandsHelpCmd.html');
+});
+
+
+app.get('/Commands/Help', function(request, response) {
+  response.sendFile(__dirname + '/CommandsHelpCmd.html');
+});
+
+
+
 app.get('/', async (req, res) => {
   res.sendFile(__dirname + '/views/index.html'); 
 });
@@ -40,8 +54,3 @@ var listener = app.listen(process.env.PORT, function() {
   console.log('Your app is listening on port ' + listener.address().port);
 });
 
-
-
-app.get('/HelpCmd', function(request, response) {
-  response.sendFile(__dirname + '/CommandsHelpCmd.html');
-});
