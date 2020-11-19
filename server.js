@@ -21,6 +21,10 @@ app.get('/Mobilecmds', function(request, response) {
   response.sendFile(__dirname + '/Mobilecmds.html');
 });
 
+app.get('/Mobilehome', function(request, response) {
+  response.sendFile(__dirname + '/Mobilehome.html');
+});
+
 //ABOVE IS TEMP BETA SCREEN
 
 app.get('/HelpCmd', function(request, response) {
