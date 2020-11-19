@@ -42,6 +42,6 @@ var listener = app.listen(process.env.PORT, function() {
 
 
 
-app.get('/commands2', function(request, response) {
-  response.sendFile(__dirname + '/commands2.html');
+app.get('/Commands-HelpCmd', function(request, response) {
+  response.sendFile(__dirname + '/Commands-HelpPage.html');
 });
