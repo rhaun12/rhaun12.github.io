@@ -24,14 +24,14 @@ app.get('/HelpCmd', function(request, response) {
 });
 
 
-app.get('/Commands/Help', function(request, response) {
-  response.sendFile(__dirname + '/CommandsHelpCmd.html');
+app.get('/Commands2', function(request, response) {
+  response.sendFile(__dirname + '/Commands2.html');
 });
 
 
 
 app.get('/', async (req, res) => {
-  res.sendFile(__dirname + '/views/index.html'); 
+  res.sendFile(__dirname + '/index.html'); 
 });
 
 app.get('/commands', function(request, response) {
