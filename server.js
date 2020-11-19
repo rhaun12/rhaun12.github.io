@@ -18,7 +18,7 @@ app.get('/futurehome', async (req, res) => {
 //ABOVE IS TEMP BETA SCREEN
 
 app.get('/CommandsMobileView', function(request, response) {
-  response.sendFile(__dirname + '/Commands2.html');
+  response.sendFile(__dirname + '/CommandsMobileView.html');
 });
 
 app.get('/HelpCmd', function(request, response) {
