@@ -15,11 +15,13 @@ app.get('/', async (req, res) => {
 app.get('/futurehome', async (req, res) => {
   res.sendFile(__dirname + '/views/index.html'); 
 });
-//ABOVE IS TEMP BETA SCREEN
 
-app.get('/CommandsMobile', function(request, response) {
-  response.sendFile(__dirname + '/CommandsMobile.html');
+
+app.get('/Mobilecmds', function(request, response) {
+  response.sendFile(__dirname + '/Mobilecmds.html');
 });
+
+//ABOVE IS TEMP BETA SCREEN
 
 app.get('/HelpCmd', function(request, response) {
   response.sendFile(__dirname + '/CommandsHelpCmd.html');
