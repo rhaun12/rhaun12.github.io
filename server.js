@@ -17,8 +17,8 @@ app.get('/futurehome', async (req, res) => {
 });
 //ABOVE IS TEMP BETA SCREEN
 
-app.get('/MobileCommandsView', function(request, response) {
-  response.sendFile(__dirname + '/CommandsMobileView.html');
+app.get('/CommandsMobile', function(request, response) {
+  response.sendFile(__dirname + '/CommandsMobile.html');
 });
 
 app.get('/HelpCmd', function(request, response) {
