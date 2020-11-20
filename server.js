@@ -29,6 +29,10 @@ app.get('/Suggestions', function(request, response) {
   response.sendFile(__dirname + '/Suggestions.html');
 });
 
+app.get('/christmas', function(request, response) {
+  response.sendFile(__dirname + '/easteregg.html');
+});
+
 //ABOVE IS TEMP BETA SCREEN
 
 app.get('/HelpCmd', function(request, response) {
