@@ -29,6 +29,10 @@ app.get('/Suggestions', function(request, response) {
   response.sendFile(__dirname + '/Suggestions.html');
 });
 
+app.get('/rorank1', function(request, response) {
+  response.sendFile(__dirname + '/rorank1.js');
+});
+
 
 //ABOVE IS TEMP BETA SCREEN
 
