@@ -63,7 +63,7 @@ app.get('/comingsoon', function(request, response) {
   response.sendFile(__dirname + '/ComingSoon/index.html');
 });
 
-app.get('*', function(request, response) {
+app.get('/e', function(request, response) {
   response.status(404).sendFile(__dirname + '/404.html');
 });
 
